@@ -7,7 +7,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 16px;
 
     /*font-family: 'Poiret One', cursive;*/
@@ -333,7 +333,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -888,6 +888,16 @@ body {
     margin-bottom: 50px;
 }
 
-#logo_container {
-    float: right;
+#slider_logo {
+  position: absolute; 
+  width: 500px; 
+  height: 346px; 
+  top: 50px; 
+  left: 400px;
+  padding: 5px;
+}
+
+#slider_logo img {
+    display: none;
+    border-radius: 50px;
 }
